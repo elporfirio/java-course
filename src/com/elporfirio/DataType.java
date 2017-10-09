@@ -64,8 +64,8 @@ public class DataType {
         long longNumber = 6;
 
         short result1 = byteNumber;
-        short result2 = byteNumber + longNumber;
+        long result2 = byteNumber + longNumber;
         double result3 = longNumber - doubleNumber;
-        long result4 = shortVal - longNumber + floatNumber;
+        float result4 = shortVal - longNumber + floatNumber;
     }
 }
