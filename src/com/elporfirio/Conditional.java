@@ -7,7 +7,7 @@ public class Conditional {
     }
 
     public void asignacionCondicional() {
-        /** Asignación condicional
+        /* Asignación condicional
          *
          * resultado = <condicion> ? <true> : <false>;
          */
@@ -18,7 +18,7 @@ public class Conditional {
     }
 
     public void doCondicionales() {
-        /** Condicional normal **/
+        /* Condicional normal **/
         float estudiantes = 30.0f;
         float salones = 4.0f;
 
@@ -30,5 +30,18 @@ public class Conditional {
         }
 
         System.out.println(resultado);
+    }
+
+    public void doLogicOperators(){
+        int estudiantes = 150;
+        int salones = 0;
+
+        // Con un simbolo condicional si la primera falla la segunda no se ejecuta
+        if(salones > 0 & estudiantes/salones > 30)
+            System.out.println("Si caben");
+
+        if(salones > 0 && estudiantes/salones > 30)
+            System.out.println("Si Caben 2");
+
     }
 }
